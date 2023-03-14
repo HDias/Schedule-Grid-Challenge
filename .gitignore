@@ -1,0 +1,7 @@
+/app/.byebug_history
+
+/app/storage/*
+!/app/storage/.keep
+
+/test/files/*
+!/test/files/.keep

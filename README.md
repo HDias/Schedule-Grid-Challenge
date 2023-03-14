@@ -1,6 +1,13 @@
+# Escolha para o Desafio
+
+ ### Escolhi o desafio 2 - Grade de programação
+ ### Passos para instalação da aplicação no link abaixo
+ ### [APP-DOC-LINK](app/README.md)
+
+ _________________
 ## Considerações gerais
 
-A escolha da linguagem é deixada para você, utilize **a que você se sente mais confortável**. A entrada deverá ser por `STDIN` (*standard input*) e a saída por `STDOUT` (*standard output*) na linguagem que você escolher. 
+A escolha da linguagem é deixada para você, utilize **a que você se sente mais confortável**. A entrada deverá ser por `STDIN` (*standard input*) e a saída por `STDOUT` (*standard output*) na linguagem que você escolher.
 
 Forneça as instruções de instalação e execução do seu sistema, observaremos **principalmente seu *design* de código**. Aspectos como coesão, baixo acoplamento e legibilidade são os principais pontos.
 
@@ -9,7 +16,7 @@ Escolha um dos desafios abaixo para resolver, caso já tenha participado do proc
 ## 1 - Breath of Fantasy
 
 Crie um jogo baseado em turnos onde dois personagens lutam entre si. Cada personagem tem `nome`, `pontos de energia` e `pontos de poder`.
-Os pontos de energia e poder são valores numéricos inteiros. 
+Os pontos de energia e poder são valores numéricos inteiros.
 
 Por exemplo, no **primeiro turno** o `herói` (o atacante da vez) ataca
 o `inimigo` (o defensor da vez) o inimigo terá seus pontos de energia diminuídos, no **segundo turno** o `inimigo` vira o atacante e o `herói` se transforma no defensor.
