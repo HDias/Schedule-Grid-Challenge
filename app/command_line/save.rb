@@ -12,8 +12,8 @@ module CommandLine
     attr_reader :region, :program_name, :begin_time, :end_time
 
     def initialize(payload:, repository_factory:)
-      @payload            = payload
-      @repository_factory = repository_factory
+      @payload            ||= payload
+      @repository_factory ||= repository_factory
 
       fill_attibutes
     end

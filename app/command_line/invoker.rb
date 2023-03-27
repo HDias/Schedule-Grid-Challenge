@@ -2,14 +2,16 @@
 
 module CommandLine
   class Invoker
-    attr_writer :on_start
-
     def initialize
       message = "********************************************\n" \
                 "******Grade de Programação******************\n" \
                 "********************************************\n" \
 
       puts message
+    end
+
+    def on_start=(on_start)
+      @on_start ||= on_start
     end
 
     def help_message

@@ -3,7 +3,7 @@
 module Repository
   class ScheduleFindByProgramName
     def initialize(storer:)
-      @storer = storer
+      @storer ||= storer
     end
 
     def call(program_name:)

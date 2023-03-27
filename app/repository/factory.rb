@@ -10,7 +10,7 @@ require_relative './schedule_find_by_program_name'
 module Repository
   class Factory
     def initialize(storer = nil)
-      @storer = storer
+      @storer ||= storer
     end
 
     def create

@@ -7,8 +7,8 @@ require './repository/factory'
 
 module CommandLine
   class Factory
-    def initialize(repository_factory = nil)
-      @repository_factory = repository_factory || Repository::Factory.new
+    def initialize(repository_factory = Repository::Factory.new)
+      @repository_factory ||= repository_factory
     end
 
     def create_save_command(payload)

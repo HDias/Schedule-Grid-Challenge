@@ -9,8 +9,8 @@ module CommandLine
     attr_reader :region, :time
 
     def initialize(payload:, repository:)
-      @payload    = payload
-      @repository = repository
+      @payload    ||= payload
+      @repository ||= repository
 
       fill_attibutes
     end

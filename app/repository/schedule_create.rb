@@ -3,8 +3,8 @@
 module Repository
   class ScheduleCreate
     def initialize(parser:, storer:)
-      @parser = parser
-      @storer = storer
+      @parser ||= parser
+      @storer ||= storer
     end
 
     def call(data:)
